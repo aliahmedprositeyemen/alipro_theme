@@ -1,0 +1,165 @@
+.row.data-field {
+    webkit-box-sizing: border-box;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #333333;
+}
+.row.section-break {
+    webkit-box-sizing: border-box;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #333333;
+}
+.print-heading {
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #333333;
+	font_family: cairo;
+	color: #ffa00a;
+	background-color: #62b9df;
+}
+
+.print-format div,
+.print-format span,
+.print-format td,
+.print-format h1,
+.print-format h2 {
+    color: #000000;}
+.print-format h3,
+.print-format h4,
+.print-format h5,
+.print-format h6{
+	font-size: 16px;
+	font_family: cairo;
+	direction: rtl;
+	text-align: center;
+	font-weight: bold;
+	margin-left:auto;
+}
+
+.print-format .table-bordered,
+.print-format .table-bordered > thead > tr > th{
+    background-color: #1cb7b8 !important;
+	direction: rtl !important;
+	font-size: 12px;
+	font-weight: bold;
+    font-family: serif;
+    color: #fff;
+	text-align: center !important;
+	border: 001px solid #000000!important;
+	min-height: 1px!important;
+	margin:0;
+}
+
+.print-format .table-bordered > tbody > tr > th{
+    background-color:#1d9245 !important;
+    direction: rtl !important;
+    font-size: 12px;
+	font-weight: bold;
+	font_family: cairo;
+	color: #000000;
+	border: 001px solid #000000!important;
+	min-height: 1px!important;
+	}
+    
+.print-format .table-bordered > tfoot > tr > th{
+	background-color: #ffffff !important;
+	border-bottom: 0px !important;
+	direction: rtl !important;
+	font-size: 12px;
+	font-weight: bold;
+	font_family: cairo;
+	color: #000000;
+	text-align: center !important;
+}
+
+.print-format .table-bordered > thead > tr > td,
+.print-format .table-bordered > tbody > tr > td,
+.print-format .table-bordered > tfoot > tr > td{
+    vertical-align: middle !important;
+    background-color: #ffffff !important;
+    padding-top: 3px !important;
+    padding-right: 3px !important;
+    padding-bottom: 0px !important;
+    padding-left: 3px !important;
+    font-size: 11px;
+	font-weight: bold;
+    text-align: center, sans-serif;
+	direction: rtl;
+	margin: auto !important;
+	color: #000000;
+	border-color:black;
+	}
+
+.print_format {
+    box-shadow: 0px 0px 9px #5e64ff;
+    max-width: 8.3in;
+    min-height: 11.69in;
+    padding: 0.75in;
+    margin: auto;
+    font-family: cairo;
+    color: #000000;
+}
+
+h6, .h6 {
+    margin: 30px;
+    display: inline;
+    font-size: 12px;
+}
+
+.print-format.landscape{
+direction: rtl;}
+hr {
+margin-top:1px;
+margin-bottom:1px;}
+h2, .h2 {text-align: center;
+    font-size: 30px;
+    display:none;
+    font-family: serif;}
+/* new print style format: for-test */
+
+.print-format.landscape {
+    padding: 2px;
+}
+.print-format-gutter{
+padding:0px 0px;
+}
+
+.navbar {
+  background: #d7a873 !important;
+  }
+  
+.widget {
+    background-color: #add6e2;
+}
+
+.standard-sidebar .standard-sidebar-item a, .desk-sidebar .standard-sidebar-item a, 
+.search-dialog .search-results .search-sidebar .standard-sidebar-item a {
+    color:  #171717;
+    border: double;
+    background-color: #faddb5;
+}
+
+
+.page-container {
+    background-color: #c6e6e8; /* لون خلفية كاحتياطي */
+    /* background-image: url('/files/sidebar.png');  استدعاء الصورة */
+    background-repeat: no-repeat; /* منع تكرار الصورة */
+    background-size: cover; /* جعل الصورة تغطي العنصر بالكامل */
+    background-position: center; /* محاذاة الصورة في المنتصف */
+}
+
+ .layout-main-section{
+background-image: linear-gradient(299deg, #effff7, #5cbcb2 51%, #b4a063 0, rgb(115 194 206 / 41%)) !important;
+    background-attachment: fixed;
+ }
+
+
