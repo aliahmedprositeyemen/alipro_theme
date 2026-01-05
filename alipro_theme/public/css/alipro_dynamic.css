@@ -1,5 +1,6 @@
-.navbar { background-color: #CB2929 !important; }
-.navbar .navbar-nav .nav-link, .navbar .navbar-brand { color: #29CD42 !important; }
-.btn-primary { background-color: #EC864B !important; border-color: #EC864B !important; }
-body { background-color: #eb2f2f !important; }
+.navbar { background-color: #ED6396 !important; }
+.navbar .navbar-nav .nav-link, .navbar .navbar-brand { color: #ED6396 !important; }
+.btn-primary { background-color: #4463F0 !important; border-color: #4463F0 !important; }
+.login-page .btn-primary { background-color: #CB2929 !important; border-color: #CB2929 !important; }
+body { background-color: #761ACB !important; }
 .page-container { background-color: #4F9DD9 !important; }
