@@ -1,0 +1,42 @@
+{
+    "actions": [],
+    "creation": "2024-05-31 09:59:01.191566",
+    "doctype": "DocType",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+        "workspace_name",
+        "title",
+        "icon"
+    ],
+    "fields": [
+        {
+            "fieldname": "workspace_name",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Workspace Name"
+        },
+        {
+            "fieldname": "title",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Title"
+        },
+        {
+            "fieldname": "icon",
+            "fieldtype": "Data",
+            "label": "Icon"
+        }
+    ],
+    "istable": 1,
+    "links": [],
+    "modified": "2024-05-31 09:59:01.191566",
+    "modified_by": "Administrator",
+    "module": "theme alipro",
+    "name": "Workspace Sidebar Remapping",
+    "owner": "Administrator",
+    "permissions": [],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}
