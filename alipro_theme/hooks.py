@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # /home/prosite/frappe-bench/apps/alipro_theme/alipro_theme/public/css/alipro.css
-app_include_css = "/assets/alipro_theme/css/alipro.css"
+app_include_css = ["/assets/alipro_theme/css/alipro.css", "/assets/alipro_theme/css/alipro_dynamic.css"]
 # app_include_js = "/assets/alipro_theme/js/alipro_theme.js"
 
 # include js, css files in header of web template
