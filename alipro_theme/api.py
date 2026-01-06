@@ -3,6 +3,15 @@ import frappe
 import json
 import os
 from frappe.core.doctype.data_import.data_import import import_doc
+
+@frappe.whitelist(allow_guest=True)
+def get_theme_settings():
+    """
+    Fetch Alipro Setting for frontend.
+    Allows guest access for login page theming.
+    """
+    return frappe.get_single("Alipro Setting")
+
 @frappe.whitelist()
 def _apply_customizations(data):
     """
