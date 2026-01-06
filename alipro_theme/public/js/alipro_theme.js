@@ -2,11 +2,7 @@
 frappe.provide("alipro_theme");
 
 frappe.call({
-    method: "frappe.client.get",
-    args: {
-        doctype: "Alipro Setting",
-        name: "Alipro Setting" // Assuming it's a single doc or the name is fixed
-    },
+    method: "alipro_theme.api.get_theme_settings",
     callback: function (r) {
         if (r.message) {
             applyTheme(r.message);
