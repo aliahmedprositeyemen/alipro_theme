@@ -30,7 +30,8 @@ app_include_css = ["/assets/alipro_theme/css/alipro_dynamic.css"]
 #app_include_css = ["/assets/alipro_theme/css/alipro.css", "/assets/alipro_theme/css/alipro_dynamic.css"]
 app_include_js = [
     "/assets/alipro_theme/js/customizations.js",
-    "/assets/alipro_theme/js/alipro_theme.js"
+    "/assets/alipro_theme/js/alipro_theme.js",
+    "/assets/alipro_theme/js/reports.js"
 ]
 
 # include js, css files in header of web template
@@ -180,9 +181,9 @@ web_include_js = ["/assets/alipro_theme/js/alipro_theme.js"]
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "alipro_theme.event.get_events"
-# }
+override_whitelisted_methods = {
+	"frappe.desk.query_report.run": "alipro_theme.overrides.general_ledger.run_override"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
