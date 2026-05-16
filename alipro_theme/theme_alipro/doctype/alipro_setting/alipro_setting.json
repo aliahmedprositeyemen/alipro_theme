@@ -43,7 +43,27 @@
   "widgets_tab",
   "number_card_section",
   "number_card_background_color",
-  "number_card_text_color"
+  "number_card_text_color",
+  "sidebar_tab",
+  "sidebar_section",
+  "sidebar_background_color",
+  "sidebar_text_color",
+  "sidebar_active_background_color",
+  "sidebar_active_text_color",
+  "page_head_tab",
+  "page_head_section",
+  "page_head_background_color",
+  "page_head_text_color",
+  "modal_tab",
+  "modal_section",
+  "modal_background_color",
+  "modal_text_color",
+  "modal_header_background_color",
+  "dropdown_tab",
+  "dropdown_section",
+  "dropdown_background_color",
+  "dropdown_text_color",
+  "dropdown_hover_background_color"
  ],
  "fields": [
   {
@@ -235,6 +255,106 @@
    "fieldname": "number_card_text_color",
    "fieldtype": "Color",
    "label": "Text Color"
+  },
+  {
+   "fieldname": "sidebar_tab",
+   "fieldtype": "Tab Break",
+   "label": "Sidebar (Workspace)"
+  },
+  {
+   "fieldname": "sidebar_section",
+   "fieldtype": "Section Break",
+   "label": "Sidebar Colors"
+  },
+  {
+   "fieldname": "sidebar_background_color",
+   "fieldtype": "Color",
+   "label": "Background Color"
+  },
+  {
+   "fieldname": "sidebar_text_color",
+   "fieldtype": "Color",
+   "label": "Text Color"
+  },
+  {
+   "fieldname": "sidebar_active_background_color",
+   "fieldtype": "Color",
+   "label": "Active Background Color"
+  },
+  {
+   "fieldname": "sidebar_active_text_color",
+   "fieldtype": "Color",
+   "label": "Active Text Color"
+  },
+  {
+   "fieldname": "page_head_tab",
+   "fieldtype": "Tab Break",
+   "label": "Page Head"
+  },
+  {
+   "fieldname": "page_head_section",
+   "fieldtype": "Section Break",
+   "label": "Page Head Colors"
+  },
+  {
+   "fieldname": "page_head_background_color",
+   "fieldtype": "Color",
+   "label": "Background Color"
+  },
+  {
+   "fieldname": "page_head_text_color",
+   "fieldtype": "Color",
+   "label": "Text Color"
+  },
+  {
+   "fieldname": "modal_tab",
+   "fieldtype": "Tab Break",
+   "label": "Modals & Dialogs"
+  },
+  {
+   "fieldname": "modal_section",
+   "fieldtype": "Section Break",
+   "label": "Modal Colors"
+  },
+  {
+   "fieldname": "modal_background_color",
+   "fieldtype": "Color",
+   "label": "Background Color"
+  },
+  {
+   "fieldname": "modal_text_color",
+   "fieldtype": "Color",
+   "label": "Text Color"
+  },
+  {
+   "fieldname": "modal_header_background_color",
+   "fieldtype": "Color",
+   "label": "Header Background Color"
+  },
+  {
+   "fieldname": "dropdown_tab",
+   "fieldtype": "Tab Break",
+   "label": "Dropdown & Menus"
+  },
+  {
+   "fieldname": "dropdown_section",
+   "fieldtype": "Section Break",
+   "label": "Dropdown Colors"
+  },
+  {
+   "fieldname": "dropdown_background_color",
+   "fieldtype": "Color",
+   "label": "Background Color"
+  },
+  {
+   "fieldname": "dropdown_text_color",
+   "fieldtype": "Color",
+   "label": "Text Color"
+  },
+  {
+   "fieldname": "dropdown_hover_background_color",
+   "fieldtype": "Color",
+   "label": "Hover Background Color"
   }
  ],
  "hide_toolbar": 1,
